@@ -21,8 +21,9 @@ header {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
-</style>
+
 }
+
 
 main {
     display: grid;
@@ -35,9 +36,16 @@ main {
     background-color: #fff;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(202, 202, 202, 0.1);
     padding: 20px;
     
+}
+.carddois {
+    background-color: #C1CDC1;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(202, 202, 202, 0.1);
+    padding: 20px;
 }
 
 .card h2 {
@@ -50,6 +58,11 @@ main {
 }
 
 .card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carddois ul {
     list-style-type: none;
     padding: 0;
 }
